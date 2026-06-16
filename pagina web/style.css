@@ -1,0 +1,59 @@
+body {
+    background-color: darkgrey;
+}
+
+.titulo {
+    color: rgb(10, 1, 19);
+}
+
+.contenedor {
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url("fondo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.carta img{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow:0 0 30px black;
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    transform: translateY(-40%);
+}
+
+.efecto-box {
+    position: relative;
+
+    top: 450px;
+    left: 55%;
+
+    transform: translateX(-85%);
+
+    width: 260px;
+    text-align: center;
+
+    color: black;
+}
+
+#boton-azar {
+    background: linear-gradient(#f7d774,
+    #c99700);
+    color: black;
+    border: 2px solid #6b4f00;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.centrado {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
